@@ -13,29 +13,7 @@ import TrainData
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     TrainData.train_model()
-    # # Load the data generators
-    # train_generator, val_generator, test_generator, num_classes = LoadData.load_data(batch_size=32)
-    #
-    # # Define the model
-    # model = Sequential()
-    # model.add(Input(shape=(30, 64, 64, 3)))  # 30 frames of 64x64 RGB
-    # model.add(Conv3D(32, (3, 3, 3), activation='relu'))
-    # model.add(MaxPooling3D(pool_size=(2, 2, 2)))
-    # model.add(Conv3D(64, (3, 3, 3), activation='relu'))
-    # model.add(MaxPooling3D(pool_size=(2, 2, 2)))
-    # model.add(Flatten())
-    # model.add(Dense(128, activation='relu'))
-    # model.add(Dropout(0.5))
-    # model.add(Dense(num_classes, activation='softmax'))
-    #
-    # model.compile(optimizer=Adam(), loss='categorical_crossentropy', metrics=['accuracy'])
-    #
-    # # Fit the model using the generator
-    # model.fit(train_generator,
-    #           validation_data=val_generator,
-    #           epochs=10,
-    #           steps_per_epoch=100,
-    #           validation_steps=20)
+
 
 
 
